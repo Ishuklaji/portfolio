@@ -30,13 +30,13 @@ let projectData = [
     heroImage: `${sugarImg}`,
     title: "Sugar Cosmetics Clone",
     desc: "Clone of Sugar Cosmetics website. Login, signup and user profile. All Ticket searching , sorting , filtering and cartpage functionalities,User can buy selected products , User can LogIn with his username , User can avail Promocode and get discounts on purchase ",
-    team: "A collaborative project, built in 7 days by team of 4 members.",
-    git: "https://github.com/Ishuklaji/Suger-Cosmetics/tree/master/src",
-    deployed: "https://sugarcosmetics-beauty.netlify.app/",
+    team: "A collaborative project, built in 5 days by team of 5 members.",
+    git: "https://github.com/Ishuklaji/sugarmern",
+    deployed: "https://sugar-cosmetics-mern.netlify.app/",
     techStack:
-      " ReactJS | Chakra UI | Javascript | JSON Server | Herokuu App | Bootstrap | git",
+      " ReactJS | MongoDB | NodeJS | ExpressJS | Chakra UI | Javascript | JSON Server | Stripe | Render App | Bootstrap | git",
     blog: "#",
-    rank: null
+    rank: 2
   },
 
   {

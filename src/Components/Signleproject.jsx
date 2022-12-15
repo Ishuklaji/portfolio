@@ -172,7 +172,7 @@ const Signleproject = ({
         <Fade direction="up" duration={800}>
 
           <p className="title">{title}</p>
-          <div className="rankDiv">{rank ? <p className="rank">Got 1st Rank in College Hackathon projects</p> : ""}</div>
+          <div className="rankDiv">{rank ? <p className="rank">Got Rank {rank} in project presentation</p> : ""}</div>
           
           <p>{desc}</p>
           <p>{techStack}</p>
