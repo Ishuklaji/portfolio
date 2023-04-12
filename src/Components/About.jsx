@@ -1,7 +1,7 @@
 import React from "react";
 import AboutDiv from "../css/About.styled";
 import { Fade } from "react-awesome-reveal";
-import Aboutme from "../assets/icons/aboutme.svg";
+// import Aboutme from "../assets/icons/aboutme.svg";
 import AboutPic from "../assets/image/aboutPic.webp";
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
               Full-Stack Web Developer with the ability to learn and collaborate
               in rapidly changing environments and compositions. Worked through
               1000+ hours of Bootcamp structure learning JavaScript, Node.Js,
-              React.Js, MongoDB, Express, HTML5, CSS3, Java, C++.
+              React.Js, Next.Js, MongoDB, Express, HTML5, CSS3, Java, C++.
             </p>
           </Fade>
         </div>

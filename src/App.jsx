@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Project";
 import Footer from "./Components/Footer";
+import GitHub from "./Components/GitHub";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
 
       <Projects />
       
+      <GitHub/>
+
       <Footer />
     </div>
   );
