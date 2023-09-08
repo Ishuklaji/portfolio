@@ -11,6 +11,8 @@ import snake from "../assets/Project-img/snake.png"
 import drago from "../assets/Project-img/drago.png"
 import Notem from "../assets/Project-img/Notem.png"
 import charla from "../assets/Project-img/charla.png";
+import tasky from "../assets/Project-img/tasky.png";
+import cmsy from "../assets/Project-img/cmsy.png";
 
 
 let projectData = [
@@ -131,11 +133,36 @@ let projectData = [
     heroImage: `${charla}`,
     title: "My Chat App",
     desc: "La Charla is a chat app where you can chat with users and also create your own friends group and interact with them.",
-    team: "Solo Project build in 2 weekss",
+    team: "Solo Project build in 2 weeks",
     git: "https://github.com/Ishuklaji/MyChat",
     deployed: "https://la-charla.netlify.app/",
     techStack:
       "HTML5 | CSS3 | Javascript | ReactJS | ExpressJS | NodeJS | MongoDB | ChakraUI | Socket IO",
+    blog: "#",
+    rank: null,
+  },
+  {
+    id: 11,
+    heroImage: `${tasky}`,
+    title: "Todo App",
+    desc: "It is a Todo app based on react JS having drag and drop functionality.",
+    team: "Solo Project build in 1 day",
+    git: "https://github.com/Ishuklaji/TodoTS",
+    deployed: "https://0-todo.netlify.app/",
+    techStack: "HTML5 | CSS3 | Typescript | ReactJS | React-beautiful-dnd",
+    blog: "#",
+    rank: null,
+  },
+  {
+    id: 12,
+    heroImage: `${cmsy}`,
+    title: "Contact CRUD App",
+    desc: "It is a basic CRUD app used to manage contact details created by MERN stack and file-handling",
+    team: "Solo Project build in 2 hours",
+    git: "https://github.com/Ishuklaji/ContactCRUD",
+    deployed: "https://cmscrud.netlify.app/",
+    techStack:
+      "HTML5 | CSS3 | Javascript | ReactJS | ExpressJS | NodeJS | FileHandler",
     blog: "#",
     rank: null,
   },

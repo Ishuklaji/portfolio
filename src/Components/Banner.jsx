@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import BannerCon from "../css/Banner.styled";
 import Typewriter from "typewriter-effect";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import Avatar1 from "../assets/image/profilePic.png";
-import Avatar2 from "../assets/image/profilePic-2.jpg";
+import Avatar1 from "../assets/image/profilePic.jpeg";
+import Avatar2 from "../assets/image/profilePic-2.jpeg";
 
 import { SiGmail } from "react-icons/si";
 
