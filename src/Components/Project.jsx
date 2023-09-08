@@ -9,6 +9,8 @@ import GameImg from "../assets/Project-img/Homepage-2.png";
 import hinImg from "../assets/Project-img/hinImg.png"
 import snake from "../assets/Project-img/snake.png"
 import drago from "../assets/Project-img/drago.png"
+import Notem from "../assets/Project-img/Notem.png"
+import charla from "../assets/Project-img/charla.png";
 
 
 let projectData = [
@@ -20,10 +22,9 @@ let projectData = [
     team: "A collaborative project, built in 2 weeks by team of 3 members",
     git: "https://github.com/Ishuklaji/Justice-Sword",
     deployed: "https://tiny-centaur-b6e6d1.netlify.app/",
-    techStack:
-      "HTML5 | CSS3 | Javascript | ES6 |Basic Graphic designs | git ",
+    techStack: "HTML5 | CSS3 | Javascript | ES6 |Basic Graphic designs | git ",
     blog: "#",
-    rank: 1
+    rank: 1,
   },
   {
     id: 2,
@@ -36,7 +37,7 @@ let projectData = [
     techStack:
       " ReactJS | MongoDB | NodeJS | ExpressJS | Chakra UI | Javascript | JSON Server | Stripe | Render App | Bootstrap | git",
     blog: "#",
-    rank: 2
+    rank: 2,
   },
 
   {
@@ -50,7 +51,7 @@ let projectData = [
     techStack:
       "HTML5 | CSS3 | AdvancedJavascript | Local Storage | Herokuu App | JSON server | Netlify | git",
     blog: "#",
-    rank: null
+    rank: null,
   },
   {
     id: 4,
@@ -62,7 +63,7 @@ let projectData = [
     deployed: "https://starlit-selkie-e3bd4a.netlify.app/",
     techStack: "HTML5 | CSS3 | Javascript | Local Storage",
     blog: "#",
-    rank: null
+    rank: null,
   },
   {
     id: 5,
@@ -74,7 +75,7 @@ let projectData = [
     deployed: "https://starlit-fairy-fac3af.netlify.app/",
     techStack: "HTML5 | CSS3 | Javascript | DSA",
     blog: "#",
-    rank: null
+    rank: null,
   },
   {
     id: 6,
@@ -86,7 +87,7 @@ let projectData = [
     deployed: "https://gilded-trifle-02086d.netlify.app/",
     techStack: "React.js | Bootstrap | HTML5 | CSS3 | Javascript | git",
     blog: "#",
-    rank: null
+    rank: null,
   },
   {
     id: 7,
@@ -98,7 +99,7 @@ let projectData = [
     deployed: "https://snakewalk.netlify.app/",
     techStack: "HTML5 | CSS3 | Javascript | DSA",
     blog: "#",
-    rank: null
+    rank: null,
   },
   {
     id: 8,
@@ -110,7 +111,33 @@ let projectData = [
     deployed: "https://dragonjumper.netlify.app/",
     techStack: "HTML5 | CSS3 | Javascript | DSA",
     blog: "#",
-    rank: null
+    rank: null,
+  },
+  {
+    id: 9,
+    heroImage: `${Notem}`,
+    title: "Notes App",
+    desc: "It is a full stack web application used to Create Read Update Delete sticky notes in online format",
+    team: "Solo Project build in three days",
+    git: "https://github.com/Ishuklaji/NotesMern",
+    deployed: "https://notesmern.netlify.app/",
+    techStack:
+      "HTML5 | CSS3 | Javascript | ReactJS | ExpressJS | NodeJS | MongoDB | ChakraUI",
+    blog: "#",
+    rank: null,
+  },
+  {
+    id: 10,
+    heroImage: `${charla}`,
+    title: "My Chat App",
+    desc: "La Charla is a chat app where you can chat with users and also create your own friends group and interact with them.",
+    team: "Solo Project build in 2 weekss",
+    git: "https://github.com/Ishuklaji/MyChat",
+    deployed: "https://la-charla.netlify.app/",
+    techStack:
+      "HTML5 | CSS3 | Javascript | ReactJS | ExpressJS | NodeJS | MongoDB | ChakraUI | Socket IO",
+    blog: "#",
+    rank: null,
   },
 ];
 
